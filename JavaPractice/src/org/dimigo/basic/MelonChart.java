@@ -6,9 +6,12 @@ import java.util.List;
 public class MelonChart {
 
 	public static void main(String[] args) {
+
+		//Map<String, List<Music>> map = new HashMap<>();
 		// TODO Auto-generated method stub
 		List<Music> list = new ArrayList<Music>();
 		list.add(new Music("I LUV IT", "PSY"));
+		
 		list.add(new Music("맞지?", "언니쓰"));
 		
 		System.out.println("--<<멜론 차트>>--");

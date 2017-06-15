@@ -17,7 +17,6 @@ public class PersonTest2 {
 		};
 		
 		for(Person pp : people) {
-			System.out.println(pp);
 			greeting(pp);
 			System.out.println();
 		}
@@ -41,6 +40,7 @@ public class PersonTest2 {
 
 	}
 	private static void greeting(Person pp) {
+		System.out.println(pp);
 		pp.sayHello();
 		pp.sayBye();
 	}

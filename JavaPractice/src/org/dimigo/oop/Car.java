@@ -1,6 +1,6 @@
 package org.dimigo.oop;
 
-public class car {
+public class Car {
 	private String company;
 	private String model;
 	private String color;
